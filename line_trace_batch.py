@@ -29,8 +29,8 @@ def photo_to_line_art(image_path, output_path, low_threshold=50, high_threshold=
     print(f"Line art saved to {output_path}")
 
 if __name__ == "__main__":
-    # Define the input folder (e.g., '~/pepe') and output folder name
-    input_folder = os.path.expanduser('~/pepe')
+    # Define the input folder (e.g., '~/input_folder') and output folder name
+    input_folder = os.path.expanduser('~/input_folder')
     output_folder = "line_trace"
     
     # Create the output folder if it doesn't exist
